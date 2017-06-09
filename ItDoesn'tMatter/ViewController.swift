@@ -15,11 +15,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var choiceThree: UITextField!
     @IBOutlet weak var choiceFour: UITextField!
     @IBOutlet weak var choiceFive: UITextField!
-    @IBOutlet weak var choiceSix: UITextField!
-    @IBOutlet weak var choiceSeven: UITextField!
-    @IBOutlet weak var choiceEight: UITextField!
-    @IBOutlet weak var choiceNine: UITextField!
-    @IBOutlet weak var choiceTen: UITextField!
     @IBOutlet weak var chooseOutlet: UIButton!
     @IBOutlet weak var resultLabel: UILabel!
 
@@ -31,11 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         choiceThree.delegate = self
         choiceFour.delegate = self
         choiceFive.delegate = self
-        choiceSix.delegate = self
-        choiceSeven.delegate = self
-        choiceEight.delegate = self
-        choiceNine.delegate = self
-        choiceTen.delegate = self
+
        
     }
     
@@ -45,11 +36,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         choiceThree.resignFirstResponder()
         choiceFour.resignFirstResponder()
         choiceFive.resignFirstResponder()
-        choiceSix.resignFirstResponder()
-        choiceSeven.resignFirstResponder()
-        choiceEight.resignFirstResponder()
-        choiceNine.resignFirstResponder()
-        choiceTen.resignFirstResponder()
+
         
         return true
     }
@@ -73,11 +60,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         choiceThree.text = ""
         choiceFour.text = ""
         choiceFive.text = ""
-        choiceSix.text = ""
-        choiceSeven.text = ""
-        choiceEight.text = ""
-        choiceNine.text = ""
-        choiceTen.text = ""
+
         
     }
     
@@ -90,14 +73,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         UserDefaults.standard.set(choiceThree.text, forKey: "choiceThree")
         UserDefaults.standard.set(choiceFour.text, forKey: "choiceFour")
         UserDefaults.standard.set(choiceFive.text, forKey: "choiceFive")
-        UserDefaults.standard.set(choiceSix.text, forKey: "choiceSix")
-        UserDefaults.standard.set(choiceSeven.text, forKey: "choiceSeven")
-        UserDefaults.standard.set(choiceEight.text, forKey: "choiceEight")
-        UserDefaults.standard.set(choiceNine.text, forKey: "choiceNine")
-        UserDefaults.standard.set(choiceTen.text, forKey: "choiceTen")
+
         UserDefaults.standard.synchronize()
         
-       let choiceArray = [choiceOne, choiceTwo, choiceThree, choiceFour, choiceFive, choiceSix, choiceSeven, choiceEight, choiceNine, choiceTen]
+       let choiceArray = [choiceOne, choiceTwo, choiceThree, choiceFour, choiceFive]
 
         let randomIndex = Int(arc4random_uniform(UInt32(choiceArray.count)))
         

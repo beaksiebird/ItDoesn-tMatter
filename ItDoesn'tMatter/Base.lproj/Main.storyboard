@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,93 +26,45 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jsN-8S-dPs">
-                                <rect key="frame" x="16" y="142" width="168" height="30"/>
+                                <rect key="frame" x="22" y="136" width="331" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="dZ3-MF-RW3"/>
-                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GSa-Pm-HOp">
-                                <rect key="frame" x="16" y="104" width="168" height="30"/>
+                                <rect key="frame" x="22" y="98" width="331" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="4pA-DO-7LR"/>
-                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cUk-No-gzO">
-                                <rect key="frame" x="16" y="66" width="168" height="30"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="168" id="d40-X7-7av"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="icg-aM-TN4">
-                                <rect key="frame" x="191" y="66" width="168" height="30"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vSE-ib-Yd1">
-                                <rect key="frame" x="191" y="104" width="168" height="30"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dCy-A4-qcJ">
-                                <rect key="frame" x="191" y="142" width="168" height="30"/>
+                                <rect key="frame" x="22" y="60" width="331" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XBM-vT-8FH">
-                                <rect key="frame" x="16" y="180" width="168" height="30"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="5mv-QL-NeW"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S4K-0g-a41">
-                                <rect key="frame" x="191" y="180" width="168" height="30"/>
+                                <rect key="frame" x="22" y="174" width="331" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rlI-xb-Li8">
-                                <rect key="frame" x="16" y="218" width="168" height="30"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="bGd-j4-ulu"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceL-re-yr7">
-                                <rect key="frame" x="192" y="218" width="168" height="30"/>
+                                <rect key="frame" x="22" y="212" width="331" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your Choices!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9u-jj-JzV">
-                                <rect key="frame" x="17" y="0.0" width="343" height="71"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your Choices!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9u-jj-JzV">
+                                <rect key="frame" x="35" y="8" width="318" height="35"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaA-vJ-rAT">
-                                <rect key="frame" x="37" y="266" width="300" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="yFR-jG-gj6"/>
-                                </constraints>
+                                <rect key="frame" x="53" y="250" width="269" height="45"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
                                 <state key="normal" title="CHOOSE FOR ME!!!">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -122,16 +74,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuV-kj-3O1">
-                                <rect key="frame" x="45" y="310" width="272" height="33"/>
+                                <rect key="frame" x="35" y="303" width="305" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="wIl-9c-SW4"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXY-a5-iGQ">
-                                <rect key="frame" x="37" y="367" width="300" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="U5e-3k-Ytz"/>
-                                </constraints>
+                                <rect key="frame" x="116.5" y="418" width="143" height="45"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
                                 <state key="normal" title="TRY AGAIN!!!">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -144,64 +96,43 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="F9u-jj-JzV" secondAttribute="trailing" constant="-1" id="2Eu-4z-awZ"/>
-                            <constraint firstItem="jsN-8S-dPs" firstAttribute="baseline" secondItem="dCy-A4-qcJ" secondAttribute="baseline" id="2SU-o1-Iow"/>
-                            <constraint firstItem="icg-aM-TN4" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2Yq-4h-UN3"/>
-                            <constraint firstItem="dCy-A4-qcJ" firstAttribute="trailing" secondItem="S4K-0g-a41" secondAttribute="trailing" id="3ax-rE-c95"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="HuV-kj-3O1" secondAttribute="trailing" constant="42" id="7bM-KO-OxD"/>
-                            <constraint firstItem="icg-aM-TN4" firstAttribute="leading" secondItem="vSE-ib-Yd1" secondAttribute="leading" id="7xE-5V-0be"/>
-                            <constraint firstItem="HuV-kj-3O1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="7yL-Qp-Tm9"/>
-                            <constraint firstItem="rlI-xb-Li8" firstAttribute="baseline" secondItem="ceL-re-yr7" secondAttribute="baseline" id="DLL-Vx-IoP"/>
-                            <constraint firstItem="dCy-A4-qcJ" firstAttribute="leading" secondItem="S4K-0g-a41" secondAttribute="leading" id="Exw-LJ-0vQ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kXY-a5-iGQ" secondAttribute="bottom" constant="270" id="F8o-2M-sGy"/>
-                            <constraint firstItem="2KQ-Zy-nDi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GCk-8I-PLs"/>
-                            <constraint firstItem="vSE-ib-Yd1" firstAttribute="leading" secondItem="dCy-A4-qcJ" secondAttribute="leading" id="GIh-Jt-sPP"/>
-                            <constraint firstItem="ceL-re-yr7" firstAttribute="leading" secondItem="rlI-xb-Li8" secondAttribute="trailing" constant="8" symbolic="YES" id="LHR-Az-itH"/>
-                            <constraint firstItem="cUk-No-gzO" firstAttribute="baseline" secondItem="icg-aM-TN4" secondAttribute="baseline" id="LK2-4X-kPC"/>
-                            <constraint firstItem="GSa-Pm-HOp" firstAttribute="leading" secondItem="jsN-8S-dPs" secondAttribute="leading" id="Lkc-6J-Fd5"/>
-                            <constraint firstItem="NaA-vJ-rAT" firstAttribute="trailing" secondItem="kXY-a5-iGQ" secondAttribute="trailing" id="NwU-3h-sMa"/>
-                            <constraint firstItem="cUk-No-gzO" firstAttribute="trailing" secondItem="GSa-Pm-HOp" secondAttribute="trailing" id="PKq-sn-wO9"/>
-                            <constraint firstItem="F9u-jj-JzV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1" id="PlT-Hg-ZCF"/>
-                            <constraint firstItem="2KQ-Zy-nDi" firstAttribute="centerX" secondItem="NaA-vJ-rAT" secondAttribute="centerX" id="Q3y-PL-uWk"/>
-                            <constraint firstItem="icg-aM-TN4" firstAttribute="trailing" secondItem="vSE-ib-Yd1" secondAttribute="trailing" id="Sh5-tz-gYH"/>
-                            <constraint firstItem="cUk-No-gzO" firstAttribute="leading" secondItem="GSa-Pm-HOp" secondAttribute="leading" id="T05-Xg-qW5"/>
-                            <constraint firstItem="rlI-xb-Li8" firstAttribute="top" secondItem="XBM-vT-8FH" secondAttribute="bottom" constant="8" symbolic="YES" id="UGj-it-3nL"/>
-                            <constraint firstItem="GSa-Pm-HOp" firstAttribute="trailing" secondItem="jsN-8S-dPs" secondAttribute="trailing" id="UzS-dK-YnN"/>
-                            <constraint firstItem="HuV-kj-3O1" firstAttribute="top" secondItem="NaA-vJ-rAT" secondAttribute="bottom" constant="14" id="Vft-AK-ujO"/>
-                            <constraint firstItem="NaA-vJ-rAT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="XrU-cd-BkS"/>
-                            <constraint firstItem="2KQ-Zy-nDi" firstAttribute="top" secondItem="F9u-jj-JzV" secondAttribute="top" id="ZjW-xF-F9O"/>
-                            <constraint firstItem="jsN-8S-dPs" firstAttribute="top" secondItem="GSa-Pm-HOp" secondAttribute="bottom" constant="8" symbolic="YES" id="a8e-wv-c0w"/>
-                            <constraint firstItem="vSE-ib-Yd1" firstAttribute="trailing" secondItem="dCy-A4-qcJ" secondAttribute="trailing" id="baY-7Z-5b0"/>
-                            <constraint firstItem="NaA-vJ-rAT" firstAttribute="top" secondItem="rlI-xb-Li8" secondAttribute="bottom" constant="18" id="bhv-6E-paT"/>
-                            <constraint firstItem="XBM-vT-8FH" firstAttribute="trailing" secondItem="rlI-xb-Li8" secondAttribute="trailing" id="gJx-KK-IVx"/>
-                            <constraint firstAttribute="trailing" secondItem="2KQ-Zy-nDi" secondAttribute="trailing" id="hVc-2J-wPo"/>
-                            <constraint firstItem="icg-aM-TN4" firstAttribute="leading" secondItem="cUk-No-gzO" secondAttribute="trailing" constant="7" id="iCK-i2-oWn"/>
-                            <constraint firstItem="2KQ-Zy-nDi" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="icv-1a-cqE"/>
-                            <constraint firstItem="2KQ-Zy-nDi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jek-27-7XQ"/>
-                            <constraint firstItem="XBM-vT-8FH" firstAttribute="baseline" secondItem="S4K-0g-a41" secondAttribute="baseline" id="oTM-Ev-ZXz"/>
-                            <constraint firstItem="XBM-vT-8FH" firstAttribute="top" secondItem="jsN-8S-dPs" secondAttribute="bottom" constant="8" symbolic="YES" id="q9J-8p-Lmu"/>
-                            <constraint firstItem="cUk-No-gzO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="qzA-wQ-3er"/>
-                            <constraint firstItem="GSa-Pm-HOp" firstAttribute="baseline" secondItem="vSE-ib-Yd1" secondAttribute="baseline" id="raW-Sw-7Ra"/>
-                            <constraint firstItem="cUk-No-gzO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="re7-yX-wPx"/>
-                            <constraint firstItem="kXY-a5-iGQ" firstAttribute="top" secondItem="HuV-kj-3O1" secondAttribute="bottom" constant="24" id="tRn-Ys-ucg"/>
-                            <constraint firstItem="GSa-Pm-HOp" firstAttribute="top" secondItem="cUk-No-gzO" secondAttribute="bottom" constant="8" symbolic="YES" id="u48-Vu-CKe"/>
-                            <constraint firstItem="jsN-8S-dPs" firstAttribute="trailing" secondItem="XBM-vT-8FH" secondAttribute="trailing" id="ue3-iA-jyZ"/>
-                            <constraint firstItem="vSE-ib-Yd1" firstAttribute="top" secondItem="F9u-jj-JzV" secondAttribute="bottom" constant="33" id="vph-O2-gZn"/>
-                            <constraint firstItem="NaA-vJ-rAT" firstAttribute="leading" secondItem="kXY-a5-iGQ" secondAttribute="leading" id="wTc-7m-D4h"/>
-                            <constraint firstItem="F9u-jj-JzV" firstAttribute="trailing" secondItem="ceL-re-yr7" secondAttribute="trailing" id="xki-0w-bkV"/>
-                            <constraint firstItem="jsN-8S-dPs" firstAttribute="leading" secondItem="XBM-vT-8FH" secondAttribute="leading" id="yKb-7O-7Ku"/>
-                            <constraint firstItem="XBM-vT-8FH" firstAttribute="leading" secondItem="rlI-xb-Li8" secondAttribute="leading" id="yo4-yD-D6e"/>
+                            <constraint firstItem="F9u-jj-JzV" firstAttribute="leading" secondItem="HuV-kj-3O1" secondAttribute="leading" id="0Rm-HB-HJd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2KQ-Zy-nDi" secondAttribute="bottom" id="1dn-gQ-5Da"/>
+                            <constraint firstItem="XBM-vT-8FH" firstAttribute="top" secondItem="jsN-8S-dPs" secondAttribute="bottom" constant="8" id="2Ec-fM-Owt"/>
+                            <constraint firstItem="F9u-jj-JzV" firstAttribute="trailing" secondItem="cUk-No-gzO" secondAttribute="trailing" id="2mw-2G-mhT"/>
+                            <constraint firstItem="HuV-kj-3O1" firstAttribute="centerX" secondItem="NaA-vJ-rAT" secondAttribute="centerX" id="4Qo-MT-qdf"/>
+                            <constraint firstItem="cUk-No-gzO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="4aF-gG-lg5"/>
+                            <constraint firstItem="rlI-xb-Li8" firstAttribute="top" secondItem="XBM-vT-8FH" secondAttribute="bottom" constant="8" id="6gd-cK-JMl"/>
+                            <constraint firstItem="cUk-No-gzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8iI-Mf-e5L"/>
+                            <constraint firstItem="kXY-a5-iGQ" firstAttribute="centerX" secondItem="HuV-kj-3O1" secondAttribute="centerX" id="BPV-tX-Ndt"/>
+                            <constraint firstItem="HuV-kj-3O1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="CYY-PX-laS"/>
+                            <constraint firstItem="2KQ-Zy-nDi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EhS-Qs-ofn"/>
+                            <constraint firstItem="F9u-jj-JzV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="8" id="F2i-84-cXY"/>
+                            <constraint firstAttribute="trailing" secondItem="2KQ-Zy-nDi" secondAttribute="trailing" id="H7x-nl-zFZ"/>
+                            <constraint firstItem="2KQ-Zy-nDi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IDI-k5-Z81"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GSa-Pm-HOp" secondAttribute="trailing" constant="6" id="Ino-nG-irl"/>
+                            <constraint firstItem="jsN-8S-dPs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="PXE-qa-uXQ"/>
+                            <constraint firstItem="NaA-vJ-rAT" firstAttribute="top" secondItem="rlI-xb-Li8" secondAttribute="bottom" constant="8" id="Qm0-Ge-Xiq"/>
+                            <constraint firstItem="XBM-vT-8FH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="TnI-er-yHV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rlI-xb-Li8" secondAttribute="trailing" constant="6" id="Wut-1p-8C1"/>
+                            <constraint firstItem="jsN-8S-dPs" firstAttribute="top" secondItem="GSa-Pm-HOp" secondAttribute="bottom" constant="8" id="ZLQ-eX-ydL"/>
+                            <constraint firstItem="kXY-a5-iGQ" firstAttribute="top" secondItem="HuV-kj-3O1" secondAttribute="bottom" constant="71" id="cMf-aN-6Rv"/>
+                            <constraint firstItem="GSa-Pm-HOp" firstAttribute="top" secondItem="cUk-No-gzO" secondAttribute="bottom" constant="8" id="d2u-1d-rDG"/>
+                            <constraint firstItem="rlI-xb-Li8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="e6B-s6-M0t"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NaA-vJ-rAT" secondAttribute="trailing" constant="37" id="epc-VS-HFn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jsN-8S-dPs" secondAttribute="trailing" constant="6" id="iHR-Ff-5A9"/>
+                            <constraint firstItem="HuV-kj-3O1" firstAttribute="top" secondItem="NaA-vJ-rAT" secondAttribute="bottom" constant="8" symbolic="YES" id="mOK-x0-KcR"/>
+                            <constraint firstItem="NaA-vJ-rAT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="rB3-Ju-Ynd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cUk-No-gzO" secondAttribute="trailing" constant="6" id="ucQ-Hg-Fl5"/>
+                            <constraint firstItem="GSa-Pm-HOp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="vzN-QA-6ve"/>
+                            <constraint firstItem="cUk-No-gzO" firstAttribute="top" secondItem="F9u-jj-JzV" secondAttribute="bottom" constant="17" id="xcE-Y0-8l6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XBM-vT-8FH" secondAttribute="trailing" constant="6" id="yyY-3v-SW2"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="choiceEight" destination="dCy-A4-qcJ" id="P5W-E2-DMg"/>
                         <outlet property="choiceFive" destination="rlI-xb-Li8" id="xwP-Tk-StT"/>
                         <outlet property="choiceFour" destination="XBM-vT-8FH" id="712-f5-w60"/>
-                        <outlet property="choiceNine" destination="S4K-0g-a41" id="ghZ-kL-N10"/>
                         <outlet property="choiceOne" destination="cUk-No-gzO" id="Qa0-GD-lEC"/>
-                        <outlet property="choiceSeven" destination="vSE-ib-Yd1" id="7dQ-LC-HfC"/>
-                        <outlet property="choiceSix" destination="icg-aM-TN4" id="j4L-Ee-zUV"/>
-                        <outlet property="choiceTen" destination="ceL-re-yr7" id="nWv-uW-ZGX"/>
                         <outlet property="choiceThree" destination="jsN-8S-dPs" id="6XT-zU-a9u"/>
                         <outlet property="choiceTwo" destination="GSa-Pm-HOp" id="blH-Bg-9wP"/>
                         <outlet property="chooseOutlet" destination="NaA-vJ-rAT" id="Cf4-fz-wXg"/>
@@ -210,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="31.875" y="35.91549295774648"/>
         </scene>
     </scenes>
     <resources>
